@@ -79,17 +79,25 @@ Summary of files created in the project:
 ### Install Requirements
 To install the necessary packages for the application, run the following command in the terminal from the project's root directory:
 
+```bash
 pip install -r requirements.txt
+```
 
 ### Run Migrations
 After installing requirements, apply the database migrations:
 
+```bash
 python manage.py makemigrations
+```
 
+```bash
 python manage.py migrate
+```
 
 ### Run the Server
+```bash
 python manage.py runserver
+```
 
 Your application should run at <http://127.0.0.1:8000/>
 
@@ -137,7 +145,7 @@ Your application should run at <http://127.0.0.1:8000/>
 
 ## Security and Data Integrity
 
-- **CSRF Protection**: All forms and AJAX requests are secured with CSRF tokens to prevent cross-site request forgery attacks.
+- **CSRF Protection**: Forms and AJAX requests are secured with CSRF tokens to prevent cross-site request forgery attacks.
   
 - **Input Validation**: User inputs are validated both on the client and server sides to ensure data integrity and protect against malicious input.
 
