@@ -79,7 +79,6 @@ Summary of files created in the project:
 ### Install Requirements
 To install the necessary packages for the application, run the following command in the terminal from the project's root directory:
 
-```bash
 pip install -r requirements.txt
 
 ### Run Migrations
