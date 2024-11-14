@@ -85,14 +85,11 @@ pip install -r requirements.txt
 ### Run Migrations
 After installing requirements, apply the database migrations:
 
-```bash
 python manage.py makemigrations
 
-```bash
 python manage.py migrate
 
 ### Run the Server
-```bash
 python manage.py runserver
 
 Your application should run at <http://127.0.0.1:8000/>
